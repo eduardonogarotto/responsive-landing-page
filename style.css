@@ -1,0 +1,106 @@
+:root {
+  font-size: 62.5%; /* 10px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  color: #090039;
+  font-family: "Epilogue", sans-serif;
+  font-size: 1.6rem;
+
+  line-height: 3.2rem;
+  padding: 6rem 2.3rem;
+
+  background: #ece9fd;
+}
+
+.page {
+  max-width: 33rem;
+  margin: auto;
+}
+
+.our-work p:first-child {
+  color: #7158ef;
+  letter-spacing: 3px;
+
+  margin-bottom: 1.7rem;
+}
+
+.our-work h1 {
+  font-size: 4rem;
+  font-weight: 800;
+
+  line-height: 4.8rem;
+}
+
+.our-work h1 + p {
+  color: rgba(10, 0, 57, 0.64);
+  margin: 1.5rem 0 3.2rem;
+}
+
+.our-work a:hover {
+  color: #7158ef;
+  font-size: 1.8rem;
+}
+
+.benefits-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  margin-top: 7.2rem;
+}
+
+.benefits-list ul li span {
+  font-size: 7.2rem;
+  font-weight: 800;
+
+  line-height: 8rem;
+
+  min-width: 5rem;
+}
+
+.benefits-list ul li {
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 8rem;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 11.6rem;
+
+    max-width: 1200px;
+  }
+
+  .our-work {
+    width: 485px;
+  }
+
+  .our-work h1 + p {
+    margin: 3.1rem 0 2.8rem;
+  }
+
+  .benefits-list ul li {
+    align-items: center;
+    gap: 5.5rem;
+  }
+}
